@@ -47,14 +47,9 @@
             justify-content: center;
         } 
         .typing-demo {
-            width: 37ch;
-            animation: typing 4s steps(37), blink .3s step-end infinite alternate;
-            white-space: nowrap;
-            overflow: hidden;
-            border-right: 3px solid;
-            font-family: monospace;
-            font-size: 2em;
-        }
+    width: fit-content;
+    animation: typing 4s steps(30), blink .3s step-end infinite alternate;
+}
 				.typing-demo b {
 					text-decoration: underline;
 				}
