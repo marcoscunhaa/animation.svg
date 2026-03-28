@@ -47,12 +47,9 @@
             justify-content: center;
         } 
         .typing-demo {
-    width: fit-content;
-    animation: typing 4s steps(30), blink .3s step-end infinite alternate;
+    width: 27ch;
+    animation: typing 4s steps(27), blink .3s step-end infinite alternate;
 }
-				.typing-demo b {
-					text-decoration: underline;
-				}
 
         @keyframes typing {
         from {
